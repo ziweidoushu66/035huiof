@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>抽牌系統</title>
+    <title>張真人小教室</title>
     <!-- 引入 Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -203,27 +203,41 @@
     <div id="app">
         <!-- 說明頁面 -->
         <div id="A_Page" class="page container introPage p-3" :class="{ visible: currentPage === 'A_Page' }">
-            <h1 class="mb-1 text-center" style="font-weight: bold;">歡迎來到抽牌系統</h1>
+            <h1 class="mb-1 text-center" style="font-weight: bold;">歡迎來到張真人小教室</h1>
             <div class="row">
                 <!-- 規則說明 -->
                 <div class="col-md-12 mt-2">
                     <div class="p-2 border rounded shadow-sm summary_div_background">
                         <h1 class="mb-3" style="color: #007bff;">規則說明</h2>
-                        <ol style="line-height: 1.8; color: #444;">
-                            <li>每一組牌只能問一個問題。如要問衍生問題，或其他問題，要再抽一組牌。</li>
-                            <li>問題務必「清楚精準」，最好設定明確時間。<br>例如：「我在三個月內會不會有好桃花？」、「我半年內是否有升遷的可能？」</li>
-                            <li>如果占問的事情有了結果，請不吝給予回饋（無論好壞，或是後續發展的回饋，讓我能隨時修正或是更加精進算牌技術）。</li>
-                            <li>健康、失物、賭博、代問，將不予回答。</li>
-                            <li>不清楚不明確的問題，也將不予回答。</li>
-                            <li>出國唸書和遊學打工，要先設定國家再問。</li>
-                            <li>提問之前，自己最好先有想法，結果會更為精確。</li>
-                        </ol>
+						<ol>
+							<li>每組牌限問一個問題。如有衍生問題，或其他問題，則需再抽一組牌。</li>
+							<li>提問時，問題務必清晰且具體，並加入明確的時間範圍，例如：
+								<ul>
+									<li>「我是否能在三個月內遇到交往對象？」</li>
+									<li>「我半年內是否有升遷機會？」</li>
+								</ul>
+							</li>
+							
+							<li>以下類型的問題恕不回答：
+								<ul>
+									<li>健康相關問題（請尋求專業醫療建議）。</li>
+									<li>失物尋找。</li>
+									<li>賭博相關問題。</li>
+									<li>代替他人提問。</li>
+								</ul>
+								</li>
+							<li>不清楚或不明確的問題將不予回答。若不清楚如何問，提問前可+官方line(@035huiof)詢問，小幫手會協助您。</li>
+							<li>涉及出國唸書、遊學或打工的問題，請先確定國家後再提問。</li>
+							<li>提問時，建議心中先有基本方向或想法，這有助於牌的解讀更貼近您的情況。</li> </ol>
                         <p>例如：</p>
-                        <ul style="color: #444;">
-                            <li>我想知道是否可以在十月底前賣掉房子？</li>
-                            <li>我是否可以在三個月內和某人發展感情？</li>
-                            <li>我在七月有某個考試，想知道考運如何？</li>
+						<!-- <ul style="color: #444;"> -->
+                        <ul>
+                            <li>「我是否能在半年內找到理想的工作？」</li>
+                            <li>「我是否能在年底前與某人重修舊好？」</li>
+                            <li>「我與某人的合作案是否會在今年內有好的結果？」</li>
                         </ul>
+						<li>占卜結果出現後，請不吝給予回饋，無論結果如何，或後續發展回饋，都能幫助我們修正及精進分析。</li>
+						<li>下一頁，將告訴您抽牌規則。</li>
                     </div>
                 </div>
             </div>
